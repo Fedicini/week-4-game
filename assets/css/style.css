@@ -35,6 +35,7 @@ aside{
     display: inline-block;
     width: 100px;
     background-color: red;
+    padding-left: 10px;
 }
 img{
     height: 150px;
