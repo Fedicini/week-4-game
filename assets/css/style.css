@@ -1,8 +1,43 @@
+body{
+    background-image: url("../images/mario-pattern.jpg");
+}
+#target{
+    float: left;
+    background-color: rgb(8, 131, 14);
+    padding: 12px 12px 30px 12px;;
+    width: 200px;
+    margin-right: 20px;
+    font-size: 40px;
+}
+.score-text{
+    background-color: rgb(33, 221, 158);
+    width: 15%;
+}
+.dive{
+clear: both;
+margin: 20px 0px;
+}
 #current{
-    background-color: green;
+    font-size:40px;
+    color: white;
+    text-align: center;
+    
+}
+.buttons{
+   clear: both;
+   margin-top: 10px;
+}
+.crystal{
+    display: inline-block;
+    max-width: 300px;
+}
+aside{
+    display: inline-block;
+    width: 100px;
+    background-color: red;
 }
 img{
     height: 150px;
     width: 150px;
-    float: left;
+    
 }
